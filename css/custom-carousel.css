@@ -1,0 +1,62 @@
+.header-bottom-carousel .carousel-wrapper-1 {
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-bottom-carousel .carousel {
+	height: 463px;
+	width: 1268px;
+}
+
+.header-bottom-carousel .carousel-list img{
+	width: 1268px;
+	
+}
+
+.header-bottom-carousel .carousel-list div {
+	width: 1268px;
+}
+
+.header-bottom-carousel .dotElement{
+	display: none;
+}
+
+.header-bottom-carousel .arrow-left {
+	left: 100px;
+}
+
+
+.header-bottom-carousel .arrow-right {
+	right: 100px;
+}
+
+.carousel-wrapper-2 .arrow-left {
+	background: url(../images/portfolio-arrow-left.png) center center no-repeat;
+}
+
+.carousel-wrapper-2 .arrow-right {
+	background: url(../images/portfolio-arrow-right.png) center center no-repeat;
+}
+
+
+.main-tweets-carousel .carousel {
+	height: 115px;
+}
+
+.main-tweets-carousel .dotElement {
+	display: none;
+}
+
+.carousel-wrapper-3 .arrow-left {
+	top: -30px;	
+	width: 20px;
+	width: 36px;
+	background: url(../images/tweet-arrow-left.png) center center no-repeat;
+}
+
+.carousel-wrapper-3 .arrow-right {
+	top: -30px;
+	width: 20px;
+	width: 36px;
+	background: url(../images/tweet-arrow-right.png) center center no-repeat;
+}

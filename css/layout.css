@@ -1,0 +1,174 @@
+.header-wrapper {
+	background: #eb4f4e;
+}
+
+.header-top-wrapper {
+	background: #f56262;
+}
+
+.header-top {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.logo {
+	width: 165px;
+	float: left;
+}
+
+.nav-bar {
+	width: 650px;
+	float: right;
+	text-align: right;
+}
+
+.header-bottom {
+
+}
+
+.header-bottom-carousel {
+	
+}
+
+.header-bottom-heading {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.container-wrapper {
+
+}
+
+.main-smart-creative-wrapper {
+	background: #232324;
+}
+
+.main-smart-creative {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.smart-creative-heading {
+	text-align: center;
+}
+
+.smart-creative-content {
+	float: left;
+	width: 33.33333333%;
+}
+.content-image {
+	text-align: center;
+}
+
+.content-container {
+	text-align: center;
+}
+
+.main-talented-expert-wrapper {
+	background: #6cc372;
+}
+
+.main-talented-expert {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.talented-expert-heading {
+	text-align: center;
+}
+
+.col-2-left {
+	float: left;
+	width: 466px;
+	padding-left: 10px;
+}
+
+.col-2-right {
+	float: right;
+	width: 466px;
+	padding-right: 10px;
+}
+
+.talented-expert-left {
+	width: 226px;
+	float: left;
+}
+
+.talented-expert-right {
+	width: 226px;
+	float: right;
+}
+
+.main-elegant-genuine-wrapper {
+	background: #ececec;
+}
+
+.elegant-genuine-heading {
+	text-align: center;
+	padding-bottom: 36px;
+}
+
+.main-elegant-genuine {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.main-cost-plan-wrapper {
+	margin: 0 auto;
+	width: 970px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cost-plan-container {
+	float: left;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cost-plan-message {
+	text-align: center;
+}
+
+.main-tweets-wrapper {
+	background: #eb4f4e;
+}
+
+.main-tweets {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.main-tweets-heading {
+	text-align: center;
+}
+
+.footer-top-wrapper {
+	background: #232324;
+}
+
+.footer-top {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.footer-top-left {
+	float: left;
+	width: 330px;
+	font-size: 14px;
+}
+
+.footer-top-right {
+	width: 100px;
+	float: right;
+	display: inline;
+}
+.footer-bottom {
+	margin: 0 auto;
+	width: 617px;
+	text-align: center;
+}
+.footer-bottom ul li {
+	display: block;
+}
