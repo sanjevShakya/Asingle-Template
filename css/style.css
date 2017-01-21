@@ -4,10 +4,6 @@
 	padding-bottom: 19px;
 }
 
-.logo img {
-	width: 165px;
-	height: auto;
-}
 
 .nav-bar {
 	padding-top: 40px;
@@ -165,7 +161,7 @@
 .talented-expert-left button {
 	position: relative;
 	font-size: 25px;
-	width: 204px;
+	width: 90.265486726%;
 	border-style: none;
 	background-color: #6cc372;
 	color: #ffffff;
@@ -177,7 +173,7 @@
 .talented-expert-right button {
 	position: relative;
 	font-size: 25px;
-	width: 204px;
+	width: 90.265486726%;
 	border-style: none;
 	background-color: #6cc372;
 	color: #ffffff;

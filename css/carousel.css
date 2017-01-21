@@ -6,7 +6,7 @@
 .carousel{
 	margin: 0 auto;
 	height: 200px;
-	width: 950px;
+	max-width: 60.625em;
 }
 
 .carousel-list{

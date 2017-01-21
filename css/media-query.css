@@ -1,0 +1,179 @@
+@media only screen and (max-width : 950px) {
+	
+	.carousel-wrapper-2 .arrow-right {
+		right: 100px;
+		top: 125px;
+	}
+	.carousel-wrapper-2 .arrow-left {
+		left: 100px;
+		top: 125px;
+	}
+	.carousel-wrapper-3 .arrow-left {
+		left: 100px;
+		top: -100px;
+	}
+	.carousel-wrapper-3 .arrow-right {
+		right: 100px;
+		top: -100px;
+	}
+	.talented-expert-name {
+		font-size: 18px;
+	}
+
+	.talented-expert-designation {
+		font-size: 16px;
+	}
+
+}
+@media only screen and (max-width : 855px) {
+	.main-cost-plan {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.cost-plan-container {
+		margin-top: 0;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 20px;
+	}
+
+	.cost-plan-container:hover {
+		margin-top: 0;
+	}
+
+	.cost-plan-heading h2 {
+		font-size: 35px;
+	}
+
+	.cost-plan-heading span {
+		font-size: 15px;
+	}
+
+	.cost-plan-choice ul li {
+		font-size: 16px;
+	}
+
+	.denomination {
+		font-size: 25px;
+	}
+
+	.number {
+		font-size: 50px;
+	}
+
+	.rate {
+		font-size: 25px;
+	}
+
+}
+
+@media only screen and (max-width : 715px) {
+	.talented-expert-container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.col-2-left {
+		width: 100%;
+		padding: 0;
+		
+	}
+
+	.col-2-right {
+		width: 100%;
+		padding:0;
+		padding-top: 10px;
+		
+	}
+	.talented-expert-name {
+		font-size: 25px;
+	}
+
+	.talented-expert-designation {
+		font-size: 20px;
+	}
+
+
+}
+@media only screen and (max-width : 777px) {
+	.nav-bar {
+		display: none;
+	}
+
+	.hamburger-menu img{
+		float: right;
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	}
+
+	.nav-bar ul li {
+		display: block;
+		text-align: center;
+
+	}
+
+	.nav-bar ul li a {
+		display: block;
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.hamburger-menu:hover .nav-bar {
+		display: block;
+		position: absolute;
+		background: #f56262;
+		padding: 0;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width : 540px) {
+	.talented-expert-name {
+		font-size: 18px;
+	}
+
+	.talented-expert-designation {
+		font-size: 16px;
+	}
+
+}
+
+@media only screen and (max-width : 400px) {
+	.smart-creative-content {
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	.talented-expert-left {
+		width: 100%;
+		
+	}
+	.talented-expert-right {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.talented-expert-name {
+		font-size: 25px;
+	}
+
+	.talented-expert-designation {
+		font-size: 20px;
+	}
+
+	.footer-top-left {
+		float: none;
+		text-align: center;
+	}
+
+	.footer-top-right {
+		float: none;
+		text-align: center;
+	}
+
+}

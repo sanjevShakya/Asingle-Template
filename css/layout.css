@@ -8,27 +8,27 @@
 
 .header-top {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .logo {
-	width: 165px;
+	width: 17.010309278%;
 	float: left;
+	padding-left: 10px
+}
+
+.hamburger-menu img {
+	height: 35px;
+	width: 35px;
+	display: none;
 }
 
 .nav-bar {
-	width: 650px;
+	width: 79.3333333333%;
 	float: right;
 	text-align: right;
 }
 
-.header-bottom {
-
-}
-
-.header-bottom-carousel {
-	
-}
 
 .header-bottom-heading {
 	text-align: center;
@@ -45,7 +45,7 @@
 
 .main-smart-creative {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .smart-creative-heading {
@@ -70,7 +70,7 @@
 
 .main-talented-expert {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .talented-expert-heading {
@@ -79,23 +79,23 @@
 
 .col-2-left {
 	float: left;
-	width: 466px;
+	width: 48.041237113%;
 	padding-left: 10px;
 }
 
 .col-2-right {
 	float: right;
-	width: 466px;
+	width: 48.041237113%;
 	padding-right: 10px;
 }
 
 .talented-expert-left {
-	width: 226px;
+	width: 48.497854077%;
 	float: left;
 }
 
 .talented-expert-right {
-	width: 226px;
+	width: 48.497854077%;
 	float: right;
 }
 
@@ -110,19 +110,19 @@
 
 .main-elegant-genuine {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .main-cost-plan-wrapper {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .cost-plan-container {
 	float: left;
-	width: 300px;
+	width: 30.927835052%;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -137,7 +137,7 @@
 
 .main-tweets {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .main-tweets-heading {
@@ -150,23 +150,24 @@
 
 .footer-top {
 	margin: 0 auto;
-	width: 970px;
+	max-width: 60.625em;
 }
 
 .footer-top-left {
 	float: left;
-	width: 330px;
+	
 	font-size: 14px;
 }
 
 .footer-top-right {
-	width: 100px;
+	
 	float: right;
 	display: inline;
+	text-align: right;
 }
 .footer-bottom {
 	margin: 0 auto;
-	width: 617px;
+	max-width: 38.3125em;
 	text-align: center;
 }
 .footer-bottom ul li {

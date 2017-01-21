@@ -4,17 +4,17 @@
 }
 
 .header-bottom-carousel .carousel {
-	height: 463px;
-	width: 1268px;
+	height: 345px;
+	max-width: 60.625em;
 }
 
 .header-bottom-carousel .carousel-list img{
-	width: 1268px;
+	
 	
 }
 
 .header-bottom-carousel .carousel-list div {
-	width: 1268px;
+	width: 100%;
 }
 
 .header-bottom-carousel .dotElement{
