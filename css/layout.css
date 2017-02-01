@@ -116,15 +116,13 @@
 .main-cost-plan-wrapper {
 	margin: 0 auto;
 	max-width: 60.625em;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 0 10px;
 }
 
 .cost-plan-container {
 	float: left;
 	width: 30.927835052%;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 0 10px;
 }
 
 .cost-plan-message {

@@ -18,8 +18,6 @@
     }else {
       navBar.classList.remove("show");
     }
-
-
   }
 	
 })();
