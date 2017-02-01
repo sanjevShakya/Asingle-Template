@@ -6,3 +6,21 @@
         });
       }
 
+
+;(function () {
+	var hamburger = document.getElementsByClassName('btn-hamburger')[0];
+	var navBar = document.getElementsByClassName('nav-bar')[0];
+	
+  document.onclick = function(e) {
+    console.log(e.target.classList);
+    if(e.target.classList.contains("fa-bars")) {
+      navBar.classList.toggle("show");
+    }else {
+      navBar.classList.remove("show");
+    }
+
+
+  }
+	
+})();
+

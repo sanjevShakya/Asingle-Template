@@ -17,17 +17,13 @@ var Carousel = function (className, delay, transitionDelay) {
   var carouselElement = carouselWrapper.getElementsByClassName('carousel')[0];
   var carouselList = carouselElement.getElementsByClassName("carousel-list")[0];
   var carouselImageArray = carouselList.getElementsByTagName("div");
+  var carouselImages = carouselList.getElementsByTagName("img");
   var carouselImageCount = carouselImageArray.length;
-
-  var carouselWidth = getStyle(carouselElement, "width");
-
+  var carousel = carouselWrapper.getElementsByClassName("carousel")[0];
+  console.log('carousel', carousel);
   carouselElement.style.overflow = "hidden";
   carouselElement.style.position = "relative";
 
-  //Position Images Vertically
-  for(var i = 0; i < carouselImageCount; i++){
-    carouselImageArray[i].style.left = (i * carouselWidth) + "px";
-  }
 
   //Arrow Elements
   var arrowLeft = document.createElement("div");
@@ -98,8 +94,29 @@ var Carousel = function (className, delay, transitionDelay) {
   var transitionTime = this.transitionDelay;
 
   if(carouselImageCount == 1) return;
-
+  var carouselWidth;
+  var carouselHeight;
+  carouselWidth = getStyle(carouselElement, "width");
+  carouselHeight = getStyle(carouselElement, "height");
+  var aspectRatio = carouselWidth / carouselHeight;
   var initSliderTransition = function () {
+    carouselWidth = getStyle(carouselElement, "width");
+    carouselHeight = getStyle(carouselElement, "height");
+    carousel.style.height = (carouselWidth / aspectRatio) + "px";
+    console.log("carousel height",carousel.style.height);
+    for(var i  = 0 ; i < carouselImages.length; i++) {
+      carouselImages[i].style.width = carouselWidth + "px";
+    }
+
+    for(var i  = 0 ; i < carouselImageCount; i++) {
+      carouselImageArray[i].style.width = carouselWidth + "px";
+    }
+
+      //Position Images Vertically
+    for(var i = 0; i < carouselImageCount; i++){
+      carouselImageArray[i].style.left = (i * carouselWidth) + "px";
+    }
+
     setCurrentDot();
     sliderInterval = setTimeout(function () {
       timeCounter = 0;

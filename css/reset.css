@@ -46,6 +46,9 @@ h2 {
 	font-family: 'Bariol' ,Arial, sans-serif;
 }
 
+.show {
+	display:block;
+}
 /* Float padding fix */
 .clearfix:before, .clearfix:after {
 	content: "";

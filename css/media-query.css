@@ -1,20 +1,21 @@
 @media only screen and (max-width : 950px) {
 	
 	.carousel-wrapper-2 .arrow-right {
-		right: 100px;
-		top: 125px;
+		right: 0%;
+		
 	}
 	.carousel-wrapper-2 .arrow-left {
-		left: 100px;
-		top: 125px;
+		left: 0%;
 	}
 	.carousel-wrapper-3 .arrow-left {
-		left: 100px;
-		top: -100px;
+		left: -2%;
 	}
 	.carousel-wrapper-3 .arrow-right {
-		right: 100px;
-		top: -100px;
+		right: -2%;
+	}
+
+	.dotElement {
+		top: 110%;
 	}
 	.talented-expert-name {
 		font-size: 18px;
@@ -24,18 +25,42 @@
 		font-size: 16px;
 	}
 
+	.main-elegant-genuine { 
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.main-tweets-carousel {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+	}
+
+	.footer-top {
+		padding: 0 10px;
+	}
+
 }
 @media only screen and (max-width : 855px) {
-	.main-cost-plan {
-		padding-right: 40px;
-		padding-left: 40px;
+	.main-elegant-genuine {
+		padding-bottom: 75px;
 	}
+
+	.main-cost-plan {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
 	.cost-plan-container {
 		margin-top: 0;
 		width: 100%;
 		padding-left: 0px;
 		padding-right: 0px;
 		padding-top: 20px;
+	}
+
+	.cost-plan-heading {
+		border: 1px solid #ececec;
 	}
 
 	.cost-plan-container:hover {
@@ -65,26 +90,26 @@
 	.rate {
 		font-size: 25px;
 	}
-
 }
 
 @media only screen and (max-width : 715px) {
 	.talented-expert-container {
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
+
 	.col-2-left {
 		width: 100%;
 		padding: 0;
 		
 	}
-
 	.col-2-right {
 		width: 100%;
 		padding:0;
 		padding-top: 10px;
 		
 	}
+
 	.talented-expert-name {
 		font-size: 25px;
 	}
@@ -92,61 +117,95 @@
 	.talented-expert-designation {
 		font-size: 20px;
 	}
-
-
 }
 @media only screen and (max-width : 777px) {
-	.nav-bar {
-		display: none;
+
+	.header-top {
+		position: relative;
 	}
 
-	.hamburger-menu img{
-		float: right;
+	.nav-bar {
+		display: none;
+		width: 100%;
+		position: absolute;
+		top: 64%;
+		z-index: 100;
+	}
+
+	.btn-hamburger {
 		display: block;
 		position: absolute;
-		right: 20px;
-		top: 30px;
+		top: 36%;
+		left: 90%;
+	}
+
+	.btn-hamburger a {
+		display: block;
+		font-size: 30px;
+		color: #fff;
+		outline: 0;
+		cursor: pointer;
+	}
+
+	.btn-hamburger a:hover {
+		color: #dfdfdf;
 	}
 
 	.nav-bar ul li {
 		display: block;
 		text-align: center;
-
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.nav-bar ul li a {
+		cursor: pointer;
 		display: block;
 		font-size: 20px;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		background-color: #eb4f4e;
 	}
 
-	.hamburger-menu:hover .nav-bar {
+	.show {
 		display: block;
-		position: absolute;
-		background: #f56262;
-		padding: 0;
-		width: 100%;
 	}
 
-}
-
-@media only screen and (max-width : 540px) {
-	.talented-expert-name {
-		font-size: 18px;
+	.social-media-sign {
+    font-size: 20px;
 	}
 
-	.talented-expert-designation {
+	.main-tweets-carousel {
 		font-size: 16px;
+		padding-bottom: 10px;
 	}
-
 }
 
-@media only screen and (max-width : 400px) {
+@media only screen and (max-width: 580px) {
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 { 
+		font-size: 25px;
+	}
+
+	.elegant-genuine-heading h2 {
+		font-size: 30px;
+	}
+
 	.smart-creative-content {
 		width: 100%;
 		padding-top: 20px;
 		padding-bottom: 40px;
+	}
+
+	.talented-expert-name {
+		font-size: 18px;
 	}
 
 	.talented-expert-left {
@@ -166,6 +225,44 @@
 		font-size: 20px;
 	}
 
+	.talented-expert-designation {
+		font-size: 16px;
+	}
+
+	.social-media-sign {
+    font-size: 15px;
+	}
+
+	.main-tweets-carousel {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media only screen and (max-width : 465px) {
+	.header-bottom-heading h1 {
+		font-size: 37px;
+	}
+
+}
+
+@media only screen and (max-width : 417px) {
+
+
+	.social-media-sign {
+	    font-size: 12px;
+	}
+
+	.main-tweets-carousel {
+		font-size: 10px;
+		padding-bottom: 20px;
+	}
+
+	.footer-top {
+		padding-bottom: 10px;
+	}
+
 	.footer-top-left {
 		float: none;
 		text-align: center;
@@ -174,6 +271,9 @@
 	.footer-top-right {
 		float: none;
 		text-align: center;
+		padding-bottom: 10px;
 	}
+
+
 
 }

@@ -1,16 +1,11 @@
 .header-bottom-carousel .carousel-wrapper-1 {
 	margin: 0 auto;
 	position: relative;
+	max-width: 60.625em;
 }
 
 .header-bottom-carousel .carousel {
 	height: 345px;
-	max-width: 60.625em;
-}
-
-.header-bottom-carousel .carousel-list img{
-	
-	
 }
 
 .header-bottom-carousel .carousel-list div {
@@ -22,12 +17,11 @@
 }
 
 .header-bottom-carousel .arrow-left {
-	left: 100px;
+	left: 15px;
 }
 
-
 .header-bottom-carousel .arrow-right {
-	right: 100px;
+	right: 15px;
 }
 
 .carousel-wrapper-2 .arrow-left {
@@ -49,14 +43,14 @@
 
 .carousel-wrapper-3 .arrow-left {
 	top: -30px;	
-	width: 20px;
+	height: 36px;
 	width: 36px;
 	background: url(../images/tweet-arrow-left.png) center center no-repeat;
 }
 
 .carousel-wrapper-3 .arrow-right {
 	top: -30px;
-	width: 20px;
+	height: 36px;
 	width: 36px;
 	background: url(../images/tweet-arrow-right.png) center center no-repeat;
 }

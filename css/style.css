@@ -4,6 +4,9 @@
 	padding-bottom: 19px;
 }
 
+.btn-hamburger {
+	display: none;
+}
 
 .nav-bar {
 	padding-top: 40px;
@@ -281,8 +284,8 @@
 
 .hidden-cog {
 	position: absolute;
-	bottom: -12px;
-	left: 136px;
+	bottom: -11%;
+	left: 47%;
 	display: none;
 }
 
@@ -476,3 +479,4 @@
 	color: #eb4f4e;
 	padding-top: 20px;
 }
+
