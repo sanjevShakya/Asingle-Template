@@ -17,10 +17,9 @@ var Carousel = function (className, delay, transitionDelay) {
   var carouselElement = carouselWrapper.getElementsByClassName('carousel')[0];
   var carouselList = carouselElement.getElementsByClassName("carousel-list")[0];
   var carouselImageArray = carouselList.getElementsByTagName("div");
-  var carouselImages = carouselList.getElementsByTagName("img");
+  //var carouselImages = carouselList.getElementsByTagName("img");
   var carouselImageCount = carouselImageArray.length;
   var carousel = carouselWrapper.getElementsByClassName("carousel")[0];
-  console.log('carousel', carousel);
   carouselElement.style.overflow = "hidden";
   carouselElement.style.position = "relative";
 
@@ -73,7 +72,6 @@ var Carousel = function (className, delay, transitionDelay) {
     dotArray.push(dotItem);
     dotElement.appendChild(dotItem);
   }
-  console.log(dotArray);
   carouselWrapper.appendChild(dotElement);
 
   var setCurrentDot = function(){
@@ -96,29 +94,37 @@ var Carousel = function (className, delay, transitionDelay) {
   if(carouselImageCount == 1) return;
   var carouselWidth;
   var carouselHeight;
-  carouselWidth = getStyle(carouselElement, "width");
-  carouselHeight = getStyle(carouselElement, "height");
-  var aspectRatio = carouselWidth / carouselHeight;
+  var carouselDiv;
+  // carouselWidth = getStyle(carouselElement, "width");
+  // carouselHeight = getStyle(carouselDiv, "height");
+  // console.log("height",getStyle(carouselDiv,"height"));
+  //carouselDiv = carouselList.getElementsByTagName("div")[0];
+  //var carouselHeight = getStyle(carouselDiv, "height");
+  //carousel.style.height = carouselHeight + "px";
+
   var initSliderTransition = function () {
-    carouselWidth = getStyle(carouselElement, "width");
-    carouselHeight = getStyle(carouselElement, "height");
-    carousel.style.height = (carouselWidth / aspectRatio) + "px";
-    console.log("carousel height",carousel.style.height);
-    for(var i  = 0 ; i < carouselImages.length; i++) {
-      carouselImages[i].style.width = carouselWidth + "px";
-    }
 
-    for(var i  = 0 ; i < carouselImageCount; i++) {
-      carouselImageArray[i].style.width = carouselWidth + "px";
-    }
-
-      //Position Images Vertically
-    for(var i = 0; i < carouselImageCount; i++){
-      carouselImageArray[i].style.left = (i * carouselWidth) + "px";
-    }
 
     setCurrentDot();
     sliderInterval = setTimeout(function () {
+      carouselDiv = carouselList.getElementsByTagName("div")[0];
+      console.log("height",getStyle(carouselDiv,"height"));
+      carouselWidth = getStyle(carouselElement, "width");
+      carouselHeight = getStyle(carouselDiv, "height");
+      carousel.style.height = (carouselHeight -3) + "px";
+
+      for(var i  = 0 ; i < carouselImageArray.length; i++) {
+        carouselImageArray[i].style.width = carouselWidth + "px";
+      }
+
+      for(var i  = 0 ; i < carouselImageCount; i++) {
+        carouselImageArray[i].style.width = carouselWidth + "px";
+      }
+
+        //Position Images Vertically
+      for(var i = 0; i < carouselImageCount; i++){
+        carouselImageArray[i].style.left = (i * carouselWidth) + "px";
+      }
       timeCounter = 0;
 
       if(sliderIndex > (carouselImageCount - 1)) sliderIndex = 0;

@@ -1,11 +1,11 @@
 @media only screen and (max-width : 950px) {
 	
 	.carousel-wrapper-2 .arrow-right {
-		right: 0%;
+		right: -4%;
 		
 	}
 	.carousel-wrapper-2 .arrow-left {
-		left: 0%;
+		left: -4%;
 	}
 	.carousel-wrapper-3 .arrow-left {
 		left: -2%;
@@ -47,8 +47,8 @@
 	}
 
 	.main-cost-plan {
-		padding-right: 20px;
-		padding-left: 20px;
+		padding-right: 20%;
+		padding-left: 20%;
 	}
 
 	.cost-plan-container {
@@ -92,7 +92,7 @@
 	}
 }
 
-@media only screen and (max-width : 715px) {
+@media only screen and (max-width : 800px) {
 	.talented-expert-container {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -118,6 +118,7 @@
 		font-size: 20px;
 	}
 }
+
 @media only screen and (max-width : 777px) {
 
 	.header-top {
@@ -176,9 +177,11 @@
 	}
 
 	.main-tweets-carousel {
-		font-size: 16px;
+		font-size: 20px;
 		padding-bottom: 10px;
 	}
+
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -202,6 +205,11 @@
 		width: 100%;
 		padding-top: 20px;
 		padding-bottom: 40px;
+	}
+
+	.talented-expert-container {
+    padding-left: 20%;
+    padding-right: 20%;
 	}
 
 	.talented-expert-name {
@@ -233,11 +241,6 @@
     font-size: 15px;
 	}
 
-	.main-tweets-carousel {
-		font-size: 12px;
-		padding-bottom: 10px;
-	}
-
 }
 
 @media only screen and (max-width : 465px) {
@@ -245,18 +248,27 @@
 		font-size: 37px;
 	}
 
+	.talented-expert-container {
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+
+	.main-cost-plan {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.cost-plan-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
 
 @media only screen and (max-width : 400px) {
 
-
-	.social-media-sign {
-	    font-size: 12px;
-	}
-
-	.main-tweets-carousel {
-		font-size: 10px;
-		padding-bottom: 20px;
+	.carousel-wrapper-3 {
+		font-size: 15px;
 	}
 
 	.footer-top {
@@ -273,7 +285,5 @@
 		text-align: center;
 		padding-bottom: 10px;
 	}
-
-
 
 }

@@ -279,7 +279,6 @@
 .cost-plan-heading span {
 	font-size: 20px;
 	color: #eb4f4e;
-	font-weight: 600;
 }
 
 .hidden-cog {
@@ -297,7 +296,6 @@
 
 .cost-plan-choice ul li {
 	font-size: 18px;
-	font-weight: 600;
 	background-color: #f0f0f0;
 	display: block;
 	border-top: 1px solid;
@@ -457,7 +455,7 @@
 	/*background-color: #232324;
 	height: 150px;
 	border-radius: 10px;*/
-	background: url('../images/footer-location.png') no-repeat;
+	background: url('../images/footer-location.png') center center no-repeat;
 	height: 160px;
 	position: absolute;
 	top:50px;

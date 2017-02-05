@@ -5,7 +5,7 @@
 
 .carousel{
 	margin: 0 auto;
-	height: 200px;
+	/*height: 200px;*/
 	width: 100%;
 }
 
@@ -14,16 +14,14 @@
 }
 
 .carousel-list img{
-	float: left;
 	width: 100%;
-	position: absolute;
-	top:0;
 }
 
 .carousel-list div {
 	float: left;
 	width: 100%;
 	position: absolute;
+	height: auto;
 	top:0;
 }
 
@@ -32,7 +30,7 @@
 	top:0;
 	left: -100px;
 	bottom: 0;	
-	width: 5%;
+	width: 3.55555555%;
 	height: 100%;
 	background: url(../images/arrow-left.png) center center no-repeat;
 	background-size: contain;
@@ -50,7 +48,7 @@
 	top:0;
 	right: -100px;
 	bottom: 0;
-	width: 5%;
+	width: 3.55555555%;
 	height: 100%;
 	background: url(../images/arrow-right.png) center center no-repeat;
 	background-size: contain;
