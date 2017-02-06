@@ -1,4 +1,3 @@
-
 .logo {
 	padding-top: 24px;
 	padding-bottom: 19px;
@@ -10,7 +9,9 @@
 
 .nav-bar {
 	padding-top: 40px;
+	z-index: 90;
 }
+
 .nav-bar ul {
 	padding: 0;
 	margin:  0;
@@ -29,9 +30,14 @@
 	text-align: center;
 	padding: 9px 12px;
 	border-radius: 3px;
+	outline: 0;
 }
 
 .nav-bar ul li a:hover {
+	background: #232324;
+}
+
+.active {
 	background: #232324;
 }
 
@@ -221,7 +227,6 @@
 	padding-bottom: 33px;
 }
 
-
 .cost-plan-container {
 	margin-top: -108px;
 }
@@ -229,8 +234,6 @@
 .cost-plan-container:hover {
 	margin-top: -130px;
 }
-
-
 
 .cost-plan-container:hover .cost-plan-level{
 	display: none;
@@ -385,6 +388,7 @@
 
 .main-tweets-carousel {
 	padding-top: 30px;
+	padding-bottom: 20px;
 	text-align: center;
 	font-size: 21px;
 	color: #fff;
@@ -452,9 +456,6 @@
 }
 
 .footer-bottom {
-	/*background-color: #232324;
-	height: 150px;
-	border-radius: 10px;*/
 	background: url('../images/footer-location.png') center center no-repeat;
 	height: 160px;
 	position: absolute;
@@ -463,7 +464,6 @@
 	right:0;
 	opacity: 0.7;
 }
-
 
 .footer-bottom h2 {
 	color: #fff;

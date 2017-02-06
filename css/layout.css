@@ -2,6 +2,16 @@
 	background: #eb4f4e;
 }
 
+.header-wrapper:after{
+	content: "";
+	width: 64px;
+	height: 121px;
+	background: url("../images/after-background.png") center left no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .header-top-wrapper {
 	background: #f56262;
 }

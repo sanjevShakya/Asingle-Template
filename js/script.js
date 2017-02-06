@@ -1,11 +1,11 @@
-; function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 50,
-          center: uluru
-        });
-      }
-
+;function initMap() {
+  var uluru = {lat: 27.7172, lng: 85.3240};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: uluru
+  });
+  map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+}
 
 ;(function () {
 	var hamburger = document.getElementsByClassName('btn-hamburger')[0];

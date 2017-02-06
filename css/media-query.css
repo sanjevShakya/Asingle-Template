@@ -1,22 +1,37 @@
-@media only screen and (max-width : 950px) {
-	
+@media only screen and (max-width : 1180px) {
 	.carousel-wrapper-2 .arrow-right {
-		right: -4%;
-		
-	}
-	.carousel-wrapper-2 .arrow-left {
-		left: -4%;
-	}
-	.carousel-wrapper-3 .arrow-left {
-		left: -2%;
-	}
-	.carousel-wrapper-3 .arrow-right {
-		right: -2%;
+		right: 0;
 	}
 
+	.carousel-wrapper-2 .arrow-left {
+		left: 0;
+	}
+
+	.carousel-wrapper-3 .arrow-left {
+		left: 0;
+	}
+
+	.carousel-wrapper-3 .arrow-right {
+		right: 0;
+	}
+}
+
+@media only screen and (max-width : 1100px) {
+	
+	.header-wrapper:after {
+		background: none;
+		width: 0;
+		height: 0;
+	}
+
+}
+
+@media only screen and (max-width : 950px) {
+	
 	.dotElement {
 		top: 110%;
 	}
+
 	.talented-expert-name {
 		font-size: 18px;
 	}
@@ -103,11 +118,11 @@
 		padding: 0;
 		
 	}
+
 	.col-2-right {
 		width: 100%;
 		padding:0;
-		padding-top: 10px;
-		
+		padding-top: 10px;	
 	}
 
 	.talented-expert-name {
@@ -138,6 +153,7 @@
 		position: absolute;
 		top: 36%;
 		left: 90%;
+		z-index: 100;
 	}
 
 	.btn-hamburger a {
@@ -157,14 +173,15 @@
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
+		margin-top: -1px;
 	}
 
 	.nav-bar ul li a {
 		cursor: pointer;
 		display: block;
-		font-size: 20px;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		font-size: 15px;
+		padding-top: 13px;
+		padding-bottom: 13px;
 		background-color: #eb4f4e;
 	}
 
@@ -180,9 +197,8 @@
 		font-size: 20px;
 		padding-bottom: 10px;
 	}
-
-
 }
+
 
 @media only screen and (max-width: 580px) {
 	h1 {
@@ -237,10 +253,6 @@
 		font-size: 16px;
 	}
 
-	.social-media-sign {
-    font-size: 15px;
-	}
-
 }
 
 @media only screen and (max-width : 465px) {
@@ -262,14 +274,9 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-
 }
 
 @media only screen and (max-width : 400px) {
-
-	.carousel-wrapper-3 {
-		font-size: 15px;
-	}
 
 	.footer-top {
 		padding-bottom: 10px;

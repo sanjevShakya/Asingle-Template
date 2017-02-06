@@ -95,16 +95,8 @@ var Carousel = function (className, delay, transitionDelay) {
   var carouselWidth;
   var carouselHeight;
   var carouselDiv;
-  // carouselWidth = getStyle(carouselElement, "width");
-  // carouselHeight = getStyle(carouselDiv, "height");
-  // console.log("height",getStyle(carouselDiv,"height"));
-  //carouselDiv = carouselList.getElementsByTagName("div")[0];
-  //var carouselHeight = getStyle(carouselDiv, "height");
-  //carousel.style.height = carouselHeight + "px";
 
   var initSliderTransition = function () {
-
-
     setCurrentDot();
     sliderInterval = setTimeout(function () {
       carouselDiv = carouselList.getElementsByTagName("div")[0];
